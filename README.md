@@ -3,7 +3,7 @@
 ###### By Adilet Momunaliev 02/01/2020  
 #
 ## Description
-_The program includes full CRUD functionality and successful returns responses to API calls.It gives Users functionalities to query animals by name, type,and arrivalDate.In addition, it was documented by using Swagger. _
+_The program includes full CRUD functionality and successful returns responses to API calls.It gives Users functionalities to query animals by name, type,and arrivalDate.In addition, it was documented by using Swagger._
 
 ## Setup/Installation Requirements
 
