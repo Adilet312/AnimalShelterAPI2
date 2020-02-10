@@ -22,6 +22,7 @@ $ dotnet build
 ```
 $ dotnet run and put URL into browser: localhost:5000/swagger
 ```
+```
 [GET ] Input: http://localhost:5000/api/Animals?name=Tom => 
 Output:   
 {
@@ -30,6 +31,8 @@ Output:
     "animalType": "Dog",
     "arrivalDate": "2019-12-10T00:00:00"
 } 
+```
+```
 [GET ]Input: http://localhost:5000/api/Animals?type=Dog =>
 Output:
   {
@@ -44,6 +47,8 @@ Output:
     "animalType": "Dog",
     "arrivalDate": "2016-10-10T00:00:00"
   }
+```
+```
 [GET ]Input: http://localhost:5000/api/Animals?arrivalDate=2016-10-10 =>
 Output:
  {
@@ -51,7 +56,8 @@ Output:
     "animalName": "Jim",
     "animalType": "Dog",
     "arrivalDate": "2016-10-10T00:00:00"
-  }
+ }
+ ```
 ## Checkout MySql Table Script
 
 ```
