@@ -9,7 +9,7 @@ _The program includes full CRUD functionality and successful returns responses t
 
 1.) Clone this repo:
 ```
-$ git clone https://github.com/Adilet312/AnimalShelterAPI
+$ git clone https://github.com/Adilet312/AnimalShelterAPI2
 ```
 2.) Navagate to root directory (AnimalShelterAPI)
 ```
