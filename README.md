@@ -3,7 +3,7 @@
 ###### By Adilet Momunaliev 02/01/2020  
 #
 ## Description
-_C#/.NET project. Includes full CRUD functionality and successful return responses to API calls._
+_The program includes full CRUD functionality and successful returns responses to API calls.It gives Users functionalities to query animals by name, type,and arrivalDate.In addition, it was documented by using Swagger. _
 
 ## Setup/Installation Requirements
 
@@ -17,6 +17,41 @@ $ cd AnimalShelterAPI
 $ dotnet restore
 $ dotnet build
 ```
+
+3) Run and enter path to the Swagger in order to do queries
+```
+$ dotnet run and put URL into browser: localhost:5000/swagger
+```
+[GET ] Input: http://localhost:5000/api/Animals?name=Tom => 
+Output:   
+{
+    "animalId": 1,
+    "animalName": "Tom",
+    "animalType": "Dog",
+    "arrivalDate": "2019-12-10T00:00:00"
+} 
+[GET ]Input: http://localhost:5000/api/Animals?type=Dog =>
+Output:
+  {
+    "animalId": 1,
+    "animalName": "Tom",
+    "animalType": "Dog",
+    "arrivalDate": "2019-12-10T00:00:00"
+  },
+  {
+    "animalId": 4,
+    "animalName": "Jim",
+    "animalType": "Dog",
+    "arrivalDate": "2016-10-10T00:00:00"
+  }
+[GET ]Input: http://localhost:5000/api/Animals?arrivalDate=2016-10-10 =>
+Output:
+ {
+    "animalId": 4,
+    "animalName": "Jim",
+    "animalType": "Dog",
+    "arrivalDate": "2016-10-10T00:00:00"
+  }
 ## Checkout MySql Table Script
 
 ```
